@@ -20,8 +20,32 @@
             android:id="@+id/myview2"
             android:layout_width="144dp"
             android:layout_height="144dp"
-            android:layout_toRightOf="@id/myview1"
+            android:layout_alignParentRight="true"
             android:background="#f00" />
+
+        <View
+            android:id="@+id/myview3"
+            android:layout_width="144dp"
+            android:layout_height="144dp"
+            android:layout_alignParentBottom="true"
+            android:background="#0ff" />
+
+        <View
+            android:id="@+id/myview4"
+            android:layout_width="144dp"
+            android:layout_height="144dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="#f0f" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/myview1"
+            android:layout_toLeftOf="@id/myview2"
+            android:layout_below="@id/myview1"
+            android:layout_above="@id/myview3"
+            android:background="#000"/>
 
     </RelativeLayout>
 
