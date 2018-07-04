@@ -16,27 +16,34 @@
 <LinearLayout
     android:layout_weight="1"
     android:layout_width="match_parent"
-    android:layout_height="0dp">
+    android:layout_height="0dp"
+    android:gravity="center">
     <TextView
+        android:layout_gravity="bottom"
         android:layout_width="168dp"
         android:layout_height="256dp"
         android:text="Text 1"
+        android:gravity="bottom|right"
         android:background="#0f0" />
     <TextView
+        android:layout_gravity="bottom"
         android:layout_width="168dp"
         android:layout_height="256dp"
         android:text="Text 2"
+        android:gravity="bottom"
         android:background="#f00" />
 </LinearLayout>
 
 <LinearLayout
     android:layout_weight="1"
     android:layout_width="match_parent"
-    android:layout_height="0dp">
+    android:layout_height="0dp"
+    android:gravity="center_horizontal">
     <TextView
         android:layout_width="168dp"
         android:layout_height="256dp"
         android:text="Text 3"
+        android:gravity="right"
         android:background="#0ff" />
     <TextView
         android:layout_width="168dp"
