@@ -12,14 +12,15 @@
         android:background="#ff0">
 
         <View
+            android:id="@+id/myview1"
             android:layout_width="144dp"
             android:layout_height="144dp"
             android:background="#0f0" />
         <View
+            android:id="@+id/myview2"
             android:layout_width="144dp"
             android:layout_height="144dp"
-            android:layout_centerVertical="true"
-            android:layout_centerHorizontal="true"
+            android:layout_toRightOf="@id/myview1"
             android:background="#f00" />
 
     </RelativeLayout>
